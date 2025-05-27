@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Hotel hotel = new Hotel(5); // Hotel con 5 habitaciones
+        Hotel hotel = new Hotel(6); // Hotel con 6 habitaciones
 
         int opcion;
         do {

@@ -23,7 +23,7 @@ public class Habitacion {
         this.disponible = true;
     }
 
-    @Override
+    @Override //La anotación @Override indica que este método está sobrescribiendo un método de la superclase o interfaz.
     public String toString() {
         return "Habitación " + numero + " - " + (disponible ? "Disponible" : "Ocupada");
     }

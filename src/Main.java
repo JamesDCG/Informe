@@ -1,3 +1,7 @@
+/* Integrantes: 
+Columba James
+Peralta Jean */
+
 import java.util.Scanner;
 
 public class Main {

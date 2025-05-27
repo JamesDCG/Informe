@@ -1,7 +1,7 @@
 public class Habitacion {
     private int numero;
     private boolean disponible;
-
+    
     public Habitacion(int numero) {
         this.numero = numero;
         this.disponible = true;

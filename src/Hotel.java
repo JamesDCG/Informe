@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hotel {
+    
     private List<Habitacion> habitaciones;
     private List<Reserva> reservas;
 
@@ -23,6 +24,7 @@ public class Hotel {
     }
 
     public Reserva crearReserva(String cliente) {
+        
         Habitacion disponible = buscarDisponible();
         if (disponible != null) {
             Reserva r = new Reserva(cliente, disponible);

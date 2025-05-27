@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hotel {
-    
+
     private List<Habitacion> habitaciones;
     private List<Reserva> reservas;
 
